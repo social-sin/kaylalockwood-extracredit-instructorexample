@@ -59,8 +59,6 @@ a:hover {
 
 /* Navigation */
 header nav {
-  display: flex;
-  gap: 20px;
   background-color: #ffffff;
   border-bottom: 1px solid #ddd;
   padding: 1em 2em;
@@ -73,6 +71,16 @@ nav ul {
   gap: 3em;
   margin: 3em;
   padding: 3em;
+}
+
+nav a {
+  margin-right: 20px; /* Increase value for more spacing */
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:last-child {
+  margin-right: 0; /* Optional: removes spacing after the last link */
 }
 
 nav li a {
