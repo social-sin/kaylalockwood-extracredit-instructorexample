@@ -59,6 +59,8 @@ a:hover {
 
 /* Navigation */
 header nav {
+  display: flex;
+  gap: 20px;
   background-color: #ffffff;
   border-bottom: 1px solid #ddd;
   padding: 1em 2em;
