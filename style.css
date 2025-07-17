@@ -68,7 +68,7 @@ header nav {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5em;
+  gap: 3em;
   margin: 0;
   padding: 0;
 }
