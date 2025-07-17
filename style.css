@@ -1,0 +1,164 @@
+/* Global styles */
+body, h1, h2, h3, p, blockquote {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+.biography {
+  max-width: 900px;       /* keeps text from stretching too wide */
+  margin: 2em auto;       /* centers the section horizontally with vertical spacing */
+  padding: 0 2em;         /* adds horizontal padding */
+  text-align: left;       /* ensures all text is left-aligned */
+}
+
+.biography p {
+  margin-bottom: 1.5em;   /* vertical spacing between paragraphs */
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.home {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #111;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+header nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+nav li a.active {
+  border-bottom: 2px solid #111;
+  padding-bottom: 0.2em;
+}
+
+/* Blog Layout */
+.blog-entries {
+  max-width: 800px;
+  margin: 3em auto;
+  padding: 0 1em;
+}
+
+.blog-entry {
+  margin-bottom: 4em;
+}
+
+.blog-entry h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Video Styling */
+.media {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+iframe.media {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: none;
+}
+
+.blog-entry iframe {
+  width: 100%;
+  height: 450px;
+  max-width: 100%;
+  margin: 1em 0;
+  border-radius: 8px;
+  border: none;
+  object-fit: cover;
+}
+
+/* Blockquote Styling */
+blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid #888;
+  font-style: italic;
+  color: #444;
+}
+
+blockquote p {
+  margin: 0.5em 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Paragraphs */
+.blog-entry p {
+  margin-top: 1em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2em 0;
+  color: #999;
+}
